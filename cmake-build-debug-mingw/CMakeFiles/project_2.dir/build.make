@@ -62,10 +62,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\18017\CS236\project-2
+CMAKE_SOURCE_DIR = C:\Users\18017\CS236\project-3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\18017\CS236\project-2\cmake-build-debug-mingw
+CMAKE_BINARY_DIR = C:\Users\18017\CS236\project-3\cmake-build-debug-mingw
 
 # Include any dependencies generated for this target.
 include CMakeFiles/project_2.dir/depend.make
@@ -79,394 +79,436 @@ include CMakeFiles/project_2.dir/flags.make
 CMakeFiles/project_2.dir/ColonAutomaton.cpp.obj: CMakeFiles/project_2.dir/flags.make
 CMakeFiles/project_2.dir/ColonAutomaton.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
 CMakeFiles/project_2.dir/ColonAutomaton.cpp.obj: ../ColonAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/project_2.dir/ColonAutomaton.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\ColonAutomaton.cpp.obj -c C:\Users\18017\CS236\project-2\ColonAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/project_2.dir/ColonAutomaton.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\ColonAutomaton.cpp.obj -c C:\Users\18017\CS236\project-3\ColonAutomaton.cpp
 
 CMakeFiles/project_2.dir/ColonAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/ColonAutomaton.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-2\ColonAutomaton.cpp > CMakeFiles\project_2.dir\ColonAutomaton.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-3\ColonAutomaton.cpp > CMakeFiles\project_2.dir\ColonAutomaton.cpp.i
 
 CMakeFiles/project_2.dir/ColonAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/ColonAutomaton.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-2\ColonAutomaton.cpp -o CMakeFiles\project_2.dir\ColonAutomaton.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-3\ColonAutomaton.cpp -o CMakeFiles\project_2.dir\ColonAutomaton.cpp.s
 
 CMakeFiles/project_2.dir/ColonDashAutomaton.cpp.obj: CMakeFiles/project_2.dir/flags.make
 CMakeFiles/project_2.dir/ColonDashAutomaton.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
 CMakeFiles/project_2.dir/ColonDashAutomaton.cpp.obj: ../ColonDashAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/project_2.dir/ColonDashAutomaton.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\ColonDashAutomaton.cpp.obj -c C:\Users\18017\CS236\project-2\ColonDashAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/project_2.dir/ColonDashAutomaton.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\ColonDashAutomaton.cpp.obj -c C:\Users\18017\CS236\project-3\ColonDashAutomaton.cpp
 
 CMakeFiles/project_2.dir/ColonDashAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/ColonDashAutomaton.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-2\ColonDashAutomaton.cpp > CMakeFiles\project_2.dir\ColonDashAutomaton.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-3\ColonDashAutomaton.cpp > CMakeFiles\project_2.dir\ColonDashAutomaton.cpp.i
 
 CMakeFiles/project_2.dir/ColonDashAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/ColonDashAutomaton.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-2\ColonDashAutomaton.cpp -o CMakeFiles\project_2.dir\ColonDashAutomaton.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-3\ColonDashAutomaton.cpp -o CMakeFiles\project_2.dir\ColonDashAutomaton.cpp.s
 
 CMakeFiles/project_2.dir/CommaAutomaton.cpp.obj: CMakeFiles/project_2.dir/flags.make
 CMakeFiles/project_2.dir/CommaAutomaton.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
 CMakeFiles/project_2.dir/CommaAutomaton.cpp.obj: ../CommaAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/project_2.dir/CommaAutomaton.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\CommaAutomaton.cpp.obj -c C:\Users\18017\CS236\project-2\CommaAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/project_2.dir/CommaAutomaton.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\CommaAutomaton.cpp.obj -c C:\Users\18017\CS236\project-3\CommaAutomaton.cpp
 
 CMakeFiles/project_2.dir/CommaAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/CommaAutomaton.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-2\CommaAutomaton.cpp > CMakeFiles\project_2.dir\CommaAutomaton.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-3\CommaAutomaton.cpp > CMakeFiles\project_2.dir\CommaAutomaton.cpp.i
 
 CMakeFiles/project_2.dir/CommaAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/CommaAutomaton.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-2\CommaAutomaton.cpp -o CMakeFiles\project_2.dir\CommaAutomaton.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-3\CommaAutomaton.cpp -o CMakeFiles\project_2.dir\CommaAutomaton.cpp.s
 
 CMakeFiles/project_2.dir/Lexer.cpp.obj: CMakeFiles/project_2.dir/flags.make
 CMakeFiles/project_2.dir/Lexer.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
 CMakeFiles/project_2.dir/Lexer.cpp.obj: ../Lexer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/project_2.dir/Lexer.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\Lexer.cpp.obj -c C:\Users\18017\CS236\project-2\Lexer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/project_2.dir/Lexer.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\Lexer.cpp.obj -c C:\Users\18017\CS236\project-3\Lexer.cpp
 
 CMakeFiles/project_2.dir/Lexer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/Lexer.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-2\Lexer.cpp > CMakeFiles\project_2.dir\Lexer.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-3\Lexer.cpp > CMakeFiles\project_2.dir\Lexer.cpp.i
 
 CMakeFiles/project_2.dir/Lexer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/Lexer.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-2\Lexer.cpp -o CMakeFiles\project_2.dir\Lexer.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-3\Lexer.cpp -o CMakeFiles\project_2.dir\Lexer.cpp.s
 
 CMakeFiles/project_2.dir/main.cpp.obj: CMakeFiles/project_2.dir/flags.make
 CMakeFiles/project_2.dir/main.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
 CMakeFiles/project_2.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/project_2.dir/main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\main.cpp.obj -c C:\Users\18017\CS236\project-2\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/project_2.dir/main.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\main.cpp.obj -c C:\Users\18017\CS236\project-3\main.cpp
 
 CMakeFiles/project_2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-2\main.cpp > CMakeFiles\project_2.dir\main.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-3\main.cpp > CMakeFiles\project_2.dir\main.cpp.i
 
 CMakeFiles/project_2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-2\main.cpp -o CMakeFiles\project_2.dir\main.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-3\main.cpp -o CMakeFiles\project_2.dir\main.cpp.s
 
 CMakeFiles/project_2.dir/Token.cpp.obj: CMakeFiles/project_2.dir/flags.make
 CMakeFiles/project_2.dir/Token.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
 CMakeFiles/project_2.dir/Token.cpp.obj: ../Token.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/project_2.dir/Token.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\Token.cpp.obj -c C:\Users\18017\CS236\project-2\Token.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/project_2.dir/Token.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\Token.cpp.obj -c C:\Users\18017\CS236\project-3\Token.cpp
 
 CMakeFiles/project_2.dir/Token.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/Token.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-2\Token.cpp > CMakeFiles\project_2.dir\Token.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-3\Token.cpp > CMakeFiles\project_2.dir\Token.cpp.i
 
 CMakeFiles/project_2.dir/Token.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/Token.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-2\Token.cpp -o CMakeFiles\project_2.dir\Token.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-3\Token.cpp -o CMakeFiles\project_2.dir\Token.cpp.s
 
 CMakeFiles/project_2.dir/PeriodAutomaton.cpp.obj: CMakeFiles/project_2.dir/flags.make
 CMakeFiles/project_2.dir/PeriodAutomaton.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
 CMakeFiles/project_2.dir/PeriodAutomaton.cpp.obj: ../PeriodAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/project_2.dir/PeriodAutomaton.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\PeriodAutomaton.cpp.obj -c C:\Users\18017\CS236\project-2\PeriodAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/project_2.dir/PeriodAutomaton.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\PeriodAutomaton.cpp.obj -c C:\Users\18017\CS236\project-3\PeriodAutomaton.cpp
 
 CMakeFiles/project_2.dir/PeriodAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/PeriodAutomaton.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-2\PeriodAutomaton.cpp > CMakeFiles\project_2.dir\PeriodAutomaton.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-3\PeriodAutomaton.cpp > CMakeFiles\project_2.dir\PeriodAutomaton.cpp.i
 
 CMakeFiles/project_2.dir/PeriodAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/PeriodAutomaton.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-2\PeriodAutomaton.cpp -o CMakeFiles\project_2.dir\PeriodAutomaton.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-3\PeriodAutomaton.cpp -o CMakeFiles\project_2.dir\PeriodAutomaton.cpp.s
 
 CMakeFiles/project_2.dir/Q_MarkAutomaton.cpp.obj: CMakeFiles/project_2.dir/flags.make
 CMakeFiles/project_2.dir/Q_MarkAutomaton.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
 CMakeFiles/project_2.dir/Q_MarkAutomaton.cpp.obj: ../Q_MarkAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/project_2.dir/Q_MarkAutomaton.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\Q_MarkAutomaton.cpp.obj -c C:\Users\18017\CS236\project-2\Q_MarkAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/project_2.dir/Q_MarkAutomaton.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\Q_MarkAutomaton.cpp.obj -c C:\Users\18017\CS236\project-3\Q_MarkAutomaton.cpp
 
 CMakeFiles/project_2.dir/Q_MarkAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/Q_MarkAutomaton.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-2\Q_MarkAutomaton.cpp > CMakeFiles\project_2.dir\Q_MarkAutomaton.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-3\Q_MarkAutomaton.cpp > CMakeFiles\project_2.dir\Q_MarkAutomaton.cpp.i
 
 CMakeFiles/project_2.dir/Q_MarkAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/Q_MarkAutomaton.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-2\Q_MarkAutomaton.cpp -o CMakeFiles\project_2.dir\Q_MarkAutomaton.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-3\Q_MarkAutomaton.cpp -o CMakeFiles\project_2.dir\Q_MarkAutomaton.cpp.s
 
 CMakeFiles/project_2.dir/Left_ParenAutomaton.cpp.obj: CMakeFiles/project_2.dir/flags.make
 CMakeFiles/project_2.dir/Left_ParenAutomaton.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
 CMakeFiles/project_2.dir/Left_ParenAutomaton.cpp.obj: ../Left_ParenAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/project_2.dir/Left_ParenAutomaton.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\Left_ParenAutomaton.cpp.obj -c C:\Users\18017\CS236\project-2\Left_ParenAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/project_2.dir/Left_ParenAutomaton.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\Left_ParenAutomaton.cpp.obj -c C:\Users\18017\CS236\project-3\Left_ParenAutomaton.cpp
 
 CMakeFiles/project_2.dir/Left_ParenAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/Left_ParenAutomaton.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-2\Left_ParenAutomaton.cpp > CMakeFiles\project_2.dir\Left_ParenAutomaton.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-3\Left_ParenAutomaton.cpp > CMakeFiles\project_2.dir\Left_ParenAutomaton.cpp.i
 
 CMakeFiles/project_2.dir/Left_ParenAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/Left_ParenAutomaton.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-2\Left_ParenAutomaton.cpp -o CMakeFiles\project_2.dir\Left_ParenAutomaton.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-3\Left_ParenAutomaton.cpp -o CMakeFiles\project_2.dir\Left_ParenAutomaton.cpp.s
 
 CMakeFiles/project_2.dir/Right_ParenAutomaton.cpp.obj: CMakeFiles/project_2.dir/flags.make
 CMakeFiles/project_2.dir/Right_ParenAutomaton.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
 CMakeFiles/project_2.dir/Right_ParenAutomaton.cpp.obj: ../Right_ParenAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/project_2.dir/Right_ParenAutomaton.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\Right_ParenAutomaton.cpp.obj -c C:\Users\18017\CS236\project-2\Right_ParenAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/project_2.dir/Right_ParenAutomaton.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\Right_ParenAutomaton.cpp.obj -c C:\Users\18017\CS236\project-3\Right_ParenAutomaton.cpp
 
 CMakeFiles/project_2.dir/Right_ParenAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/Right_ParenAutomaton.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-2\Right_ParenAutomaton.cpp > CMakeFiles\project_2.dir\Right_ParenAutomaton.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-3\Right_ParenAutomaton.cpp > CMakeFiles\project_2.dir\Right_ParenAutomaton.cpp.i
 
 CMakeFiles/project_2.dir/Right_ParenAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/Right_ParenAutomaton.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-2\Right_ParenAutomaton.cpp -o CMakeFiles\project_2.dir\Right_ParenAutomaton.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-3\Right_ParenAutomaton.cpp -o CMakeFiles\project_2.dir\Right_ParenAutomaton.cpp.s
 
 CMakeFiles/project_2.dir/MultiplyAutomaton.cpp.obj: CMakeFiles/project_2.dir/flags.make
 CMakeFiles/project_2.dir/MultiplyAutomaton.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
 CMakeFiles/project_2.dir/MultiplyAutomaton.cpp.obj: ../MultiplyAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/project_2.dir/MultiplyAutomaton.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\MultiplyAutomaton.cpp.obj -c C:\Users\18017\CS236\project-2\MultiplyAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/project_2.dir/MultiplyAutomaton.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\MultiplyAutomaton.cpp.obj -c C:\Users\18017\CS236\project-3\MultiplyAutomaton.cpp
 
 CMakeFiles/project_2.dir/MultiplyAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/MultiplyAutomaton.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-2\MultiplyAutomaton.cpp > CMakeFiles\project_2.dir\MultiplyAutomaton.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-3\MultiplyAutomaton.cpp > CMakeFiles\project_2.dir\MultiplyAutomaton.cpp.i
 
 CMakeFiles/project_2.dir/MultiplyAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/MultiplyAutomaton.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-2\MultiplyAutomaton.cpp -o CMakeFiles\project_2.dir\MultiplyAutomaton.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-3\MultiplyAutomaton.cpp -o CMakeFiles\project_2.dir\MultiplyAutomaton.cpp.s
 
 CMakeFiles/project_2.dir/AddAutomaton.cpp.obj: CMakeFiles/project_2.dir/flags.make
 CMakeFiles/project_2.dir/AddAutomaton.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
 CMakeFiles/project_2.dir/AddAutomaton.cpp.obj: ../AddAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/project_2.dir/AddAutomaton.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\AddAutomaton.cpp.obj -c C:\Users\18017\CS236\project-2\AddAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/project_2.dir/AddAutomaton.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\AddAutomaton.cpp.obj -c C:\Users\18017\CS236\project-3\AddAutomaton.cpp
 
 CMakeFiles/project_2.dir/AddAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/AddAutomaton.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-2\AddAutomaton.cpp > CMakeFiles\project_2.dir\AddAutomaton.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-3\AddAutomaton.cpp > CMakeFiles\project_2.dir\AddAutomaton.cpp.i
 
 CMakeFiles/project_2.dir/AddAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/AddAutomaton.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-2\AddAutomaton.cpp -o CMakeFiles\project_2.dir\AddAutomaton.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-3\AddAutomaton.cpp -o CMakeFiles\project_2.dir\AddAutomaton.cpp.s
 
 CMakeFiles/project_2.dir/SchemesAutomaton.cpp.obj: CMakeFiles/project_2.dir/flags.make
 CMakeFiles/project_2.dir/SchemesAutomaton.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
 CMakeFiles/project_2.dir/SchemesAutomaton.cpp.obj: ../SchemesAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/project_2.dir/SchemesAutomaton.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\SchemesAutomaton.cpp.obj -c C:\Users\18017\CS236\project-2\SchemesAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/project_2.dir/SchemesAutomaton.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\SchemesAutomaton.cpp.obj -c C:\Users\18017\CS236\project-3\SchemesAutomaton.cpp
 
 CMakeFiles/project_2.dir/SchemesAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/SchemesAutomaton.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-2\SchemesAutomaton.cpp > CMakeFiles\project_2.dir\SchemesAutomaton.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-3\SchemesAutomaton.cpp > CMakeFiles\project_2.dir\SchemesAutomaton.cpp.i
 
 CMakeFiles/project_2.dir/SchemesAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/SchemesAutomaton.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-2\SchemesAutomaton.cpp -o CMakeFiles\project_2.dir\SchemesAutomaton.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-3\SchemesAutomaton.cpp -o CMakeFiles\project_2.dir\SchemesAutomaton.cpp.s
 
 CMakeFiles/project_2.dir/FactsAutomaton.cpp.obj: CMakeFiles/project_2.dir/flags.make
 CMakeFiles/project_2.dir/FactsAutomaton.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
 CMakeFiles/project_2.dir/FactsAutomaton.cpp.obj: ../FactsAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/project_2.dir/FactsAutomaton.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\FactsAutomaton.cpp.obj -c C:\Users\18017\CS236\project-2\FactsAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/project_2.dir/FactsAutomaton.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\FactsAutomaton.cpp.obj -c C:\Users\18017\CS236\project-3\FactsAutomaton.cpp
 
 CMakeFiles/project_2.dir/FactsAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/FactsAutomaton.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-2\FactsAutomaton.cpp > CMakeFiles\project_2.dir\FactsAutomaton.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-3\FactsAutomaton.cpp > CMakeFiles\project_2.dir\FactsAutomaton.cpp.i
 
 CMakeFiles/project_2.dir/FactsAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/FactsAutomaton.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-2\FactsAutomaton.cpp -o CMakeFiles\project_2.dir\FactsAutomaton.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-3\FactsAutomaton.cpp -o CMakeFiles\project_2.dir\FactsAutomaton.cpp.s
 
 CMakeFiles/project_2.dir/RulesAutomaton.cpp.obj: CMakeFiles/project_2.dir/flags.make
 CMakeFiles/project_2.dir/RulesAutomaton.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
 CMakeFiles/project_2.dir/RulesAutomaton.cpp.obj: ../RulesAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/project_2.dir/RulesAutomaton.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\RulesAutomaton.cpp.obj -c C:\Users\18017\CS236\project-2\RulesAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/project_2.dir/RulesAutomaton.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\RulesAutomaton.cpp.obj -c C:\Users\18017\CS236\project-3\RulesAutomaton.cpp
 
 CMakeFiles/project_2.dir/RulesAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/RulesAutomaton.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-2\RulesAutomaton.cpp > CMakeFiles\project_2.dir\RulesAutomaton.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-3\RulesAutomaton.cpp > CMakeFiles\project_2.dir\RulesAutomaton.cpp.i
 
 CMakeFiles/project_2.dir/RulesAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/RulesAutomaton.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-2\RulesAutomaton.cpp -o CMakeFiles\project_2.dir\RulesAutomaton.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-3\RulesAutomaton.cpp -o CMakeFiles\project_2.dir\RulesAutomaton.cpp.s
 
 CMakeFiles/project_2.dir/QueriesAutomaton.cpp.obj: CMakeFiles/project_2.dir/flags.make
 CMakeFiles/project_2.dir/QueriesAutomaton.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
 CMakeFiles/project_2.dir/QueriesAutomaton.cpp.obj: ../QueriesAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/project_2.dir/QueriesAutomaton.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\QueriesAutomaton.cpp.obj -c C:\Users\18017\CS236\project-2\QueriesAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/project_2.dir/QueriesAutomaton.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\QueriesAutomaton.cpp.obj -c C:\Users\18017\CS236\project-3\QueriesAutomaton.cpp
 
 CMakeFiles/project_2.dir/QueriesAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/QueriesAutomaton.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-2\QueriesAutomaton.cpp > CMakeFiles\project_2.dir\QueriesAutomaton.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-3\QueriesAutomaton.cpp > CMakeFiles\project_2.dir\QueriesAutomaton.cpp.i
 
 CMakeFiles/project_2.dir/QueriesAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/QueriesAutomaton.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-2\QueriesAutomaton.cpp -o CMakeFiles\project_2.dir\QueriesAutomaton.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-3\QueriesAutomaton.cpp -o CMakeFiles\project_2.dir\QueriesAutomaton.cpp.s
 
 CMakeFiles/project_2.dir/IDAutomaton.cpp.obj: CMakeFiles/project_2.dir/flags.make
 CMakeFiles/project_2.dir/IDAutomaton.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
 CMakeFiles/project_2.dir/IDAutomaton.cpp.obj: ../IDAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/project_2.dir/IDAutomaton.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\IDAutomaton.cpp.obj -c C:\Users\18017\CS236\project-2\IDAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/project_2.dir/IDAutomaton.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\IDAutomaton.cpp.obj -c C:\Users\18017\CS236\project-3\IDAutomaton.cpp
 
 CMakeFiles/project_2.dir/IDAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/IDAutomaton.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-2\IDAutomaton.cpp > CMakeFiles\project_2.dir\IDAutomaton.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-3\IDAutomaton.cpp > CMakeFiles\project_2.dir\IDAutomaton.cpp.i
 
 CMakeFiles/project_2.dir/IDAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/IDAutomaton.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-2\IDAutomaton.cpp -o CMakeFiles\project_2.dir\IDAutomaton.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-3\IDAutomaton.cpp -o CMakeFiles\project_2.dir\IDAutomaton.cpp.s
 
 CMakeFiles/project_2.dir/StringAutomaton.cpp.obj: CMakeFiles/project_2.dir/flags.make
 CMakeFiles/project_2.dir/StringAutomaton.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
 CMakeFiles/project_2.dir/StringAutomaton.cpp.obj: ../StringAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/project_2.dir/StringAutomaton.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\StringAutomaton.cpp.obj -c C:\Users\18017\CS236\project-2\StringAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/project_2.dir/StringAutomaton.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\StringAutomaton.cpp.obj -c C:\Users\18017\CS236\project-3\StringAutomaton.cpp
 
 CMakeFiles/project_2.dir/StringAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/StringAutomaton.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-2\StringAutomaton.cpp > CMakeFiles\project_2.dir\StringAutomaton.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-3\StringAutomaton.cpp > CMakeFiles\project_2.dir\StringAutomaton.cpp.i
 
 CMakeFiles/project_2.dir/StringAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/StringAutomaton.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-2\StringAutomaton.cpp -o CMakeFiles\project_2.dir\StringAutomaton.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-3\StringAutomaton.cpp -o CMakeFiles\project_2.dir\StringAutomaton.cpp.s
 
 CMakeFiles/project_2.dir/CommentAutomaton.cpp.obj: CMakeFiles/project_2.dir/flags.make
 CMakeFiles/project_2.dir/CommentAutomaton.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
 CMakeFiles/project_2.dir/CommentAutomaton.cpp.obj: ../CommentAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/project_2.dir/CommentAutomaton.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\CommentAutomaton.cpp.obj -c C:\Users\18017\CS236\project-2\CommentAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/project_2.dir/CommentAutomaton.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\CommentAutomaton.cpp.obj -c C:\Users\18017\CS236\project-3\CommentAutomaton.cpp
 
 CMakeFiles/project_2.dir/CommentAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/CommentAutomaton.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-2\CommentAutomaton.cpp > CMakeFiles\project_2.dir\CommentAutomaton.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-3\CommentAutomaton.cpp > CMakeFiles\project_2.dir\CommentAutomaton.cpp.i
 
 CMakeFiles/project_2.dir/CommentAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/CommentAutomaton.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-2\CommentAutomaton.cpp -o CMakeFiles\project_2.dir\CommentAutomaton.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-3\CommentAutomaton.cpp -o CMakeFiles\project_2.dir\CommentAutomaton.cpp.s
 
 CMakeFiles/project_2.dir/UndefinedAutomaton.cpp.obj: CMakeFiles/project_2.dir/flags.make
 CMakeFiles/project_2.dir/UndefinedAutomaton.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
 CMakeFiles/project_2.dir/UndefinedAutomaton.cpp.obj: ../UndefinedAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/project_2.dir/UndefinedAutomaton.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\UndefinedAutomaton.cpp.obj -c C:\Users\18017\CS236\project-2\UndefinedAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/project_2.dir/UndefinedAutomaton.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\UndefinedAutomaton.cpp.obj -c C:\Users\18017\CS236\project-3\UndefinedAutomaton.cpp
 
 CMakeFiles/project_2.dir/UndefinedAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/UndefinedAutomaton.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-2\UndefinedAutomaton.cpp > CMakeFiles\project_2.dir\UndefinedAutomaton.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-3\UndefinedAutomaton.cpp > CMakeFiles\project_2.dir\UndefinedAutomaton.cpp.i
 
 CMakeFiles/project_2.dir/UndefinedAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/UndefinedAutomaton.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-2\UndefinedAutomaton.cpp -o CMakeFiles\project_2.dir\UndefinedAutomaton.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-3\UndefinedAutomaton.cpp -o CMakeFiles\project_2.dir\UndefinedAutomaton.cpp.s
 
 CMakeFiles/project_2.dir/EOFAutomaton.cpp.obj: CMakeFiles/project_2.dir/flags.make
 CMakeFiles/project_2.dir/EOFAutomaton.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
 CMakeFiles/project_2.dir/EOFAutomaton.cpp.obj: ../EOFAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/project_2.dir/EOFAutomaton.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\EOFAutomaton.cpp.obj -c C:\Users\18017\CS236\project-2\EOFAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/project_2.dir/EOFAutomaton.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\EOFAutomaton.cpp.obj -c C:\Users\18017\CS236\project-3\EOFAutomaton.cpp
 
 CMakeFiles/project_2.dir/EOFAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/EOFAutomaton.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-2\EOFAutomaton.cpp > CMakeFiles\project_2.dir\EOFAutomaton.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-3\EOFAutomaton.cpp > CMakeFiles\project_2.dir\EOFAutomaton.cpp.i
 
 CMakeFiles/project_2.dir/EOFAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/EOFAutomaton.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-2\EOFAutomaton.cpp -o CMakeFiles\project_2.dir\EOFAutomaton.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-3\EOFAutomaton.cpp -o CMakeFiles\project_2.dir\EOFAutomaton.cpp.s
 
 CMakeFiles/project_2.dir/WhiteSpaceAutomaton.cpp.obj: CMakeFiles/project_2.dir/flags.make
 CMakeFiles/project_2.dir/WhiteSpaceAutomaton.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
 CMakeFiles/project_2.dir/WhiteSpaceAutomaton.cpp.obj: ../WhiteSpaceAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/project_2.dir/WhiteSpaceAutomaton.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\WhiteSpaceAutomaton.cpp.obj -c C:\Users\18017\CS236\project-2\WhiteSpaceAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/project_2.dir/WhiteSpaceAutomaton.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\WhiteSpaceAutomaton.cpp.obj -c C:\Users\18017\CS236\project-3\WhiteSpaceAutomaton.cpp
 
 CMakeFiles/project_2.dir/WhiteSpaceAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/WhiteSpaceAutomaton.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-2\WhiteSpaceAutomaton.cpp > CMakeFiles\project_2.dir\WhiteSpaceAutomaton.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-3\WhiteSpaceAutomaton.cpp > CMakeFiles\project_2.dir\WhiteSpaceAutomaton.cpp.i
 
 CMakeFiles/project_2.dir/WhiteSpaceAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/WhiteSpaceAutomaton.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-2\WhiteSpaceAutomaton.cpp -o CMakeFiles\project_2.dir\WhiteSpaceAutomaton.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-3\WhiteSpaceAutomaton.cpp -o CMakeFiles\project_2.dir\WhiteSpaceAutomaton.cpp.s
 
 CMakeFiles/project_2.dir/LineCommentAutomaton.cpp.obj: CMakeFiles/project_2.dir/flags.make
 CMakeFiles/project_2.dir/LineCommentAutomaton.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
 CMakeFiles/project_2.dir/LineCommentAutomaton.cpp.obj: ../LineCommentAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/project_2.dir/LineCommentAutomaton.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\LineCommentAutomaton.cpp.obj -c C:\Users\18017\CS236\project-2\LineCommentAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/project_2.dir/LineCommentAutomaton.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\LineCommentAutomaton.cpp.obj -c C:\Users\18017\CS236\project-3\LineCommentAutomaton.cpp
 
 CMakeFiles/project_2.dir/LineCommentAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/LineCommentAutomaton.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-2\LineCommentAutomaton.cpp > CMakeFiles\project_2.dir\LineCommentAutomaton.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-3\LineCommentAutomaton.cpp > CMakeFiles\project_2.dir\LineCommentAutomaton.cpp.i
 
 CMakeFiles/project_2.dir/LineCommentAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/LineCommentAutomaton.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-2\LineCommentAutomaton.cpp -o CMakeFiles\project_2.dir\LineCommentAutomaton.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-3\LineCommentAutomaton.cpp -o CMakeFiles\project_2.dir\LineCommentAutomaton.cpp.s
 
 CMakeFiles/project_2.dir/Parser.cpp.obj: CMakeFiles/project_2.dir/flags.make
 CMakeFiles/project_2.dir/Parser.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
 CMakeFiles/project_2.dir/Parser.cpp.obj: ../Parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/project_2.dir/Parser.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\Parser.cpp.obj -c C:\Users\18017\CS236\project-2\Parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/project_2.dir/Parser.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\Parser.cpp.obj -c C:\Users\18017\CS236\project-3\Parser.cpp
 
 CMakeFiles/project_2.dir/Parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/Parser.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-2\Parser.cpp > CMakeFiles\project_2.dir\Parser.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-3\Parser.cpp > CMakeFiles\project_2.dir\Parser.cpp.i
 
 CMakeFiles/project_2.dir/Parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/Parser.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-2\Parser.cpp -o CMakeFiles\project_2.dir\Parser.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-3\Parser.cpp -o CMakeFiles\project_2.dir\Parser.cpp.s
 
 CMakeFiles/project_2.dir/DatalogProgram.cpp.obj: CMakeFiles/project_2.dir/flags.make
 CMakeFiles/project_2.dir/DatalogProgram.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
 CMakeFiles/project_2.dir/DatalogProgram.cpp.obj: ../DatalogProgram.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/project_2.dir/DatalogProgram.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\DatalogProgram.cpp.obj -c C:\Users\18017\CS236\project-2\DatalogProgram.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/project_2.dir/DatalogProgram.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\DatalogProgram.cpp.obj -c C:\Users\18017\CS236\project-3\DatalogProgram.cpp
 
 CMakeFiles/project_2.dir/DatalogProgram.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/DatalogProgram.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-2\DatalogProgram.cpp > CMakeFiles\project_2.dir\DatalogProgram.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-3\DatalogProgram.cpp > CMakeFiles\project_2.dir\DatalogProgram.cpp.i
 
 CMakeFiles/project_2.dir/DatalogProgram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/DatalogProgram.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-2\DatalogProgram.cpp -o CMakeFiles\project_2.dir\DatalogProgram.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-3\DatalogProgram.cpp -o CMakeFiles\project_2.dir\DatalogProgram.cpp.s
 
 CMakeFiles/project_2.dir/Predicate.cpp.obj: CMakeFiles/project_2.dir/flags.make
 CMakeFiles/project_2.dir/Predicate.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
 CMakeFiles/project_2.dir/Predicate.cpp.obj: ../Predicate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/project_2.dir/Predicate.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\Predicate.cpp.obj -c C:\Users\18017\CS236\project-2\Predicate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/project_2.dir/Predicate.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\Predicate.cpp.obj -c C:\Users\18017\CS236\project-3\Predicate.cpp
 
 CMakeFiles/project_2.dir/Predicate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/Predicate.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-2\Predicate.cpp > CMakeFiles\project_2.dir\Predicate.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-3\Predicate.cpp > CMakeFiles\project_2.dir\Predicate.cpp.i
 
 CMakeFiles/project_2.dir/Predicate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/Predicate.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-2\Predicate.cpp -o CMakeFiles\project_2.dir\Predicate.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-3\Predicate.cpp -o CMakeFiles\project_2.dir\Predicate.cpp.s
 
 CMakeFiles/project_2.dir/Rule.cpp.obj: CMakeFiles/project_2.dir/flags.make
 CMakeFiles/project_2.dir/Rule.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
 CMakeFiles/project_2.dir/Rule.cpp.obj: ../Rule.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/project_2.dir/Rule.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\Rule.cpp.obj -c C:\Users\18017\CS236\project-2\Rule.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/project_2.dir/Rule.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\Rule.cpp.obj -c C:\Users\18017\CS236\project-3\Rule.cpp
 
 CMakeFiles/project_2.dir/Rule.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/Rule.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-2\Rule.cpp > CMakeFiles\project_2.dir\Rule.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-3\Rule.cpp > CMakeFiles\project_2.dir\Rule.cpp.i
 
 CMakeFiles/project_2.dir/Rule.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/Rule.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-2\Rule.cpp -o CMakeFiles\project_2.dir\Rule.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-3\Rule.cpp -o CMakeFiles\project_2.dir\Rule.cpp.s
 
 CMakeFiles/project_2.dir/Parameter.cpp.obj: CMakeFiles/project_2.dir/flags.make
 CMakeFiles/project_2.dir/Parameter.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
 CMakeFiles/project_2.dir/Parameter.cpp.obj: ../Parameter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/project_2.dir/Parameter.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\Parameter.cpp.obj -c C:\Users\18017\CS236\project-2\Parameter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/project_2.dir/Parameter.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\Parameter.cpp.obj -c C:\Users\18017\CS236\project-3\Parameter.cpp
 
 CMakeFiles/project_2.dir/Parameter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/Parameter.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-2\Parameter.cpp > CMakeFiles\project_2.dir\Parameter.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-3\Parameter.cpp > CMakeFiles\project_2.dir\Parameter.cpp.i
 
 CMakeFiles/project_2.dir/Parameter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/Parameter.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-2\Parameter.cpp -o CMakeFiles\project_2.dir\Parameter.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-3\Parameter.cpp -o CMakeFiles\project_2.dir\Parameter.cpp.s
+
+CMakeFiles/project_2.dir/Database.cpp.obj: CMakeFiles/project_2.dir/flags.make
+CMakeFiles/project_2.dir/Database.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
+CMakeFiles/project_2.dir/Database.cpp.obj: ../Database.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/project_2.dir/Database.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\Database.cpp.obj -c C:\Users\18017\CS236\project-3\Database.cpp
+
+CMakeFiles/project_2.dir/Database.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/Database.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-3\Database.cpp > CMakeFiles\project_2.dir\Database.cpp.i
+
+CMakeFiles/project_2.dir/Database.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/Database.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-3\Database.cpp -o CMakeFiles\project_2.dir\Database.cpp.s
+
+CMakeFiles/project_2.dir/Relation.cpp.obj: CMakeFiles/project_2.dir/flags.make
+CMakeFiles/project_2.dir/Relation.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
+CMakeFiles/project_2.dir/Relation.cpp.obj: ../Relation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/project_2.dir/Relation.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\Relation.cpp.obj -c C:\Users\18017\CS236\project-3\Relation.cpp
+
+CMakeFiles/project_2.dir/Relation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/Relation.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-3\Relation.cpp > CMakeFiles\project_2.dir\Relation.cpp.i
+
+CMakeFiles/project_2.dir/Relation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/Relation.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-3\Relation.cpp -o CMakeFiles\project_2.dir\Relation.cpp.s
+
+CMakeFiles/project_2.dir/Interpreter.cpp.obj: CMakeFiles/project_2.dir/flags.make
+CMakeFiles/project_2.dir/Interpreter.cpp.obj: CMakeFiles/project_2.dir/includes_CXX.rsp
+CMakeFiles/project_2.dir/Interpreter.cpp.obj: ../Interpreter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/project_2.dir/Interpreter.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project_2.dir\Interpreter.cpp.obj -c C:\Users\18017\CS236\project-3\Interpreter.cpp
+
+CMakeFiles/project_2.dir/Interpreter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_2.dir/Interpreter.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\18017\CS236\project-3\Interpreter.cpp > CMakeFiles\project_2.dir\Interpreter.cpp.i
+
+CMakeFiles/project_2.dir/Interpreter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_2.dir/Interpreter.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\18017\CS236\project-3\Interpreter.cpp -o CMakeFiles\project_2.dir\Interpreter.cpp.s
 
 # Object files for target project_2
 project_2_OBJECTS = \
@@ -497,7 +539,10 @@ project_2_OBJECTS = \
 "CMakeFiles/project_2.dir/DatalogProgram.cpp.obj" \
 "CMakeFiles/project_2.dir/Predicate.cpp.obj" \
 "CMakeFiles/project_2.dir/Rule.cpp.obj" \
-"CMakeFiles/project_2.dir/Parameter.cpp.obj"
+"CMakeFiles/project_2.dir/Parameter.cpp.obj" \
+"CMakeFiles/project_2.dir/Database.cpp.obj" \
+"CMakeFiles/project_2.dir/Relation.cpp.obj" \
+"CMakeFiles/project_2.dir/Interpreter.cpp.obj"
 
 # External object files for target project_2
 project_2_EXTERNAL_OBJECTS =
@@ -530,11 +575,14 @@ project_2.exe: CMakeFiles/project_2.dir/DatalogProgram.cpp.obj
 project_2.exe: CMakeFiles/project_2.dir/Predicate.cpp.obj
 project_2.exe: CMakeFiles/project_2.dir/Rule.cpp.obj
 project_2.exe: CMakeFiles/project_2.dir/Parameter.cpp.obj
+project_2.exe: CMakeFiles/project_2.dir/Database.cpp.obj
+project_2.exe: CMakeFiles/project_2.dir/Relation.cpp.obj
+project_2.exe: CMakeFiles/project_2.dir/Interpreter.cpp.obj
 project_2.exe: CMakeFiles/project_2.dir/build.make
 project_2.exe: CMakeFiles/project_2.dir/linklibs.rsp
 project_2.exe: CMakeFiles/project_2.dir/objects1.rsp
 project_2.exe: CMakeFiles/project_2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX executable project_2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX executable project_2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\project_2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -547,6 +595,6 @@ CMakeFiles/project_2.dir/clean:
 .PHONY : CMakeFiles/project_2.dir/clean
 
 CMakeFiles/project_2.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\18017\CS236\project-2 C:\Users\18017\CS236\project-2 C:\Users\18017\CS236\project-2\cmake-build-debug-mingw C:\Users\18017\CS236\project-2\cmake-build-debug-mingw C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles\project_2.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\18017\CS236\project-3 C:\Users\18017\CS236\project-3 C:\Users\18017\CS236\project-3\cmake-build-debug-mingw C:\Users\18017\CS236\project-3\cmake-build-debug-mingw C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles\project_2.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/project_2.dir/depend
 

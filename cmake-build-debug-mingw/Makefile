@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\18017\CS236\project-2
+CMAKE_SOURCE_DIR = C:\Users\18017\CS236\project-3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\18017\CS236\project-2\cmake-build-debug-mingw
+CMAKE_BINARY_DIR = C:\Users\18017\CS236\project-3\cmake-build-debug-mingw
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\18017\CS236\project-2\cmake-build-debug-mingw\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\18017\CS236\project-3\cmake-build-debug-mingw\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -277,6 +277,33 @@ CommentAutomaton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_2.dir\build.make CMakeFiles/project_2.dir/CommentAutomaton.cpp.s
 .PHONY : CommentAutomaton.cpp.s
 
+Database.obj: Database.cpp.obj
+
+.PHONY : Database.obj
+
+# target to build an object file
+Database.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_2.dir\build.make CMakeFiles/project_2.dir/Database.cpp.obj
+.PHONY : Database.cpp.obj
+
+Database.i: Database.cpp.i
+
+.PHONY : Database.i
+
+# target to preprocess a source file
+Database.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_2.dir\build.make CMakeFiles/project_2.dir/Database.cpp.i
+.PHONY : Database.cpp.i
+
+Database.s: Database.cpp.s
+
+.PHONY : Database.s
+
+# target to generate assembly for a file
+Database.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_2.dir\build.make CMakeFiles/project_2.dir/Database.cpp.s
+.PHONY : Database.cpp.s
+
 DatalogProgram.obj: DatalogProgram.cpp.obj
 
 .PHONY : DatalogProgram.obj
@@ -384,6 +411,33 @@ IDAutomaton.s: IDAutomaton.cpp.s
 IDAutomaton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_2.dir\build.make CMakeFiles/project_2.dir/IDAutomaton.cpp.s
 .PHONY : IDAutomaton.cpp.s
+
+Interpreter.obj: Interpreter.cpp.obj
+
+.PHONY : Interpreter.obj
+
+# target to build an object file
+Interpreter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_2.dir\build.make CMakeFiles/project_2.dir/Interpreter.cpp.obj
+.PHONY : Interpreter.cpp.obj
+
+Interpreter.i: Interpreter.cpp.i
+
+.PHONY : Interpreter.i
+
+# target to preprocess a source file
+Interpreter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_2.dir\build.make CMakeFiles/project_2.dir/Interpreter.cpp.i
+.PHONY : Interpreter.cpp.i
+
+Interpreter.s: Interpreter.cpp.s
+
+.PHONY : Interpreter.s
+
+# target to generate assembly for a file
+Interpreter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_2.dir\build.make CMakeFiles/project_2.dir/Interpreter.cpp.s
+.PHONY : Interpreter.cpp.s
 
 Left_ParenAutomaton.obj: Left_ParenAutomaton.cpp.obj
 
@@ -655,6 +709,33 @@ QueriesAutomaton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_2.dir\build.make CMakeFiles/project_2.dir/QueriesAutomaton.cpp.s
 .PHONY : QueriesAutomaton.cpp.s
 
+Relation.obj: Relation.cpp.obj
+
+.PHONY : Relation.obj
+
+# target to build an object file
+Relation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_2.dir\build.make CMakeFiles/project_2.dir/Relation.cpp.obj
+.PHONY : Relation.cpp.obj
+
+Relation.i: Relation.cpp.i
+
+.PHONY : Relation.i
+
+# target to preprocess a source file
+Relation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_2.dir\build.make CMakeFiles/project_2.dir/Relation.cpp.i
+.PHONY : Relation.cpp.i
+
+Relation.s: Relation.cpp.s
+
+.PHONY : Relation.s
+
+# target to generate assembly for a file
+Relation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_2.dir\build.make CMakeFiles/project_2.dir/Relation.cpp.s
+.PHONY : Relation.cpp.s
+
 Right_ParenAutomaton.obj: Right_ParenAutomaton.cpp.obj
 
 .PHONY : Right_ParenAutomaton.obj
@@ -922,6 +1003,9 @@ help:
 	@echo ... CommentAutomaton.obj
 	@echo ... CommentAutomaton.i
 	@echo ... CommentAutomaton.s
+	@echo ... Database.obj
+	@echo ... Database.i
+	@echo ... Database.s
 	@echo ... DatalogProgram.obj
 	@echo ... DatalogProgram.i
 	@echo ... DatalogProgram.s
@@ -934,6 +1018,9 @@ help:
 	@echo ... IDAutomaton.obj
 	@echo ... IDAutomaton.i
 	@echo ... IDAutomaton.s
+	@echo ... Interpreter.obj
+	@echo ... Interpreter.i
+	@echo ... Interpreter.s
 	@echo ... Left_ParenAutomaton.obj
 	@echo ... Left_ParenAutomaton.i
 	@echo ... Left_ParenAutomaton.s
@@ -964,6 +1051,9 @@ help:
 	@echo ... QueriesAutomaton.obj
 	@echo ... QueriesAutomaton.i
 	@echo ... QueriesAutomaton.s
+	@echo ... Relation.obj
+	@echo ... Relation.i
+	@echo ... Relation.s
 	@echo ... Right_ParenAutomaton.obj
 	@echo ... Right_ParenAutomaton.i
 	@echo ... Right_ParenAutomaton.s
