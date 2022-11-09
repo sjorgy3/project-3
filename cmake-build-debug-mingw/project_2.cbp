@@ -139,6 +139,12 @@
 		<Unit filename="C:/Users/18017/CS236/project-3/FactsAutomaton.h">
 			<Option target="project_2"/>
 		</Unit>
+		<Unit filename="C:/Users/18017/CS236/project-3/Header.cpp">
+			<Option target="project_2"/>
+		</Unit>
+		<Unit filename="C:/Users/18017/CS236/project-3/Header.h">
+			<Option target="project_2"/>
+		</Unit>
 		<Unit filename="C:/Users/18017/CS236/project-3/IDAutomaton.cpp">
 			<Option target="project_2"/>
 		</Unit>
@@ -251,6 +257,12 @@
 			<Option target="project_2"/>
 		</Unit>
 		<Unit filename="C:/Users/18017/CS236/project-3/Token.h">
+			<Option target="project_2"/>
+		</Unit>
+		<Unit filename="C:/Users/18017/CS236/project-3/Tuple.cpp">
+			<Option target="project_2"/>
+		</Unit>
+		<Unit filename="C:/Users/18017/CS236/project-3/Tuple.h">
 			<Option target="project_2"/>
 		</Unit>
 		<Unit filename="C:/Users/18017/CS236/project-3/UndefinedAutomaton.cpp">

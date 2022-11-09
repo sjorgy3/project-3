@@ -385,6 +385,33 @@ FactsAutomaton.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_2.dir\build.make CMakeFiles/project_2.dir/FactsAutomaton.cpp.s
 .PHONY : FactsAutomaton.cpp.s
 
+Header.obj: Header.cpp.obj
+
+.PHONY : Header.obj
+
+# target to build an object file
+Header.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_2.dir\build.make CMakeFiles/project_2.dir/Header.cpp.obj
+.PHONY : Header.cpp.obj
+
+Header.i: Header.cpp.i
+
+.PHONY : Header.i
+
+# target to preprocess a source file
+Header.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_2.dir\build.make CMakeFiles/project_2.dir/Header.cpp.i
+.PHONY : Header.cpp.i
+
+Header.s: Header.cpp.s
+
+.PHONY : Header.s
+
+# target to generate assembly for a file
+Header.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_2.dir\build.make CMakeFiles/project_2.dir/Header.cpp.s
+.PHONY : Header.cpp.s
+
 IDAutomaton.obj: IDAutomaton.cpp.obj
 
 .PHONY : IDAutomaton.obj
@@ -898,6 +925,33 @@ Token.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_2.dir\build.make CMakeFiles/project_2.dir/Token.cpp.s
 .PHONY : Token.cpp.s
 
+Tuple.obj: Tuple.cpp.obj
+
+.PHONY : Tuple.obj
+
+# target to build an object file
+Tuple.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_2.dir\build.make CMakeFiles/project_2.dir/Tuple.cpp.obj
+.PHONY : Tuple.cpp.obj
+
+Tuple.i: Tuple.cpp.i
+
+.PHONY : Tuple.i
+
+# target to preprocess a source file
+Tuple.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_2.dir\build.make CMakeFiles/project_2.dir/Tuple.cpp.i
+.PHONY : Tuple.cpp.i
+
+Tuple.s: Tuple.cpp.s
+
+.PHONY : Tuple.s
+
+# target to generate assembly for a file
+Tuple.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project_2.dir\build.make CMakeFiles/project_2.dir/Tuple.cpp.s
+.PHONY : Tuple.cpp.s
+
 UndefinedAutomaton.obj: UndefinedAutomaton.cpp.obj
 
 .PHONY : UndefinedAutomaton.obj
@@ -1015,6 +1069,9 @@ help:
 	@echo ... FactsAutomaton.obj
 	@echo ... FactsAutomaton.i
 	@echo ... FactsAutomaton.s
+	@echo ... Header.obj
+	@echo ... Header.i
+	@echo ... Header.s
 	@echo ... IDAutomaton.obj
 	@echo ... IDAutomaton.i
 	@echo ... IDAutomaton.s
@@ -1072,6 +1129,9 @@ help:
 	@echo ... Token.obj
 	@echo ... Token.i
 	@echo ... Token.s
+	@echo ... Tuple.obj
+	@echo ... Tuple.i
+	@echo ... Tuple.s
 	@echo ... UndefinedAutomaton.obj
 	@echo ... UndefinedAutomaton.i
 	@echo ... UndefinedAutomaton.s
