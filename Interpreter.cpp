@@ -39,7 +39,11 @@ void Interpreter::interpretQueries() {
 }
 
 Database Interpreter::database1() {
-    return Database();
+    intepretSchemes();
+    interpretFacts();
+
+
+    return this->database;
 }
 
 void Interpreter::interpret() {
