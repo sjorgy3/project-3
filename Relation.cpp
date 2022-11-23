@@ -16,3 +16,20 @@ Relation Relation::select(int index, string value) {
 Relation Relation::project(list<int> indices) {
     return Relation();
 }
+
+void Relation::setHeader(Header header) {
+    this->givenHeader = header;
+
+
+}
+
+void Relation::addTuple(Tuple newTup) {
+    this->rows.insert(newTup);
+
+}
+
+Relation Relation::rename(list<string> attributes) {
+    return Relation();
+}
+
+

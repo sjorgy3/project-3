@@ -29,7 +29,7 @@ public:
     Parser(vector<Token *> tokensFromMain);
     ~Parser();
     DatalogProgram datalogprogram();
-    void parse();
+    DatalogProgram parse();
     void schemeList();
     void factList();
     void ruleList();

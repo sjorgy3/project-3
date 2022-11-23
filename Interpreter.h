@@ -15,7 +15,10 @@ private:
 public:
     Interpreter(DatalogProgram program){
         this->program = program;
+
     }
+    Database database1();
+    void interpret();
     void intepretSchemes();
     void interpretFacts();
     void interpretRules();

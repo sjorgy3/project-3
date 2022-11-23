@@ -29,11 +29,9 @@ void Parser::match(TokenType tokenType){
 
 }
 
-void Parser::parse() {
-
+DatalogProgram Parser::parse() {
     try {
         datalogprogram();
-
     }
     catch (Token error){
         cout << "Failure!" << endl;
@@ -46,24 +44,31 @@ void Parser::parse() {
 DatalogProgram Parser::datalogprogram(){
 
     //datalogProgram	->	SCHEMES COLON scheme schemeList FACTS COLON factList RULES COLON ruleList QUERIES COLON query queryList EOF
-    match(TokenType::SCHEMES);
-    match(TokenType::COLON);
-    scheme();
-    schemeList();
-    match(TokenType::FACTS);
-    match(TokenType::COLON);
-    factList();
-    match(TokenType::RULES);
-    match(TokenType::COLON);
-    ruleList();
-    match(TokenType::QUERIES);
-    match(TokenType::COLON);
-    query();
-    queryList();
-    match(TokenType::ENDOFFILE);
+    try{
+        match(TokenType::SCHEMES);
+        match(TokenType::COLON);
+        scheme();
+        schemeList();
+        match(TokenType::FACTS);
+        match(TokenType::COLON);
+        factList();
+        match(TokenType::RULES);
+        match(TokenType::COLON);
+        ruleList();
+        match(TokenType::QUERIES);
+        match(TokenType::COLON);
+        query();
+        queryList();
+        match(TokenType::ENDOFFILE);
 
-    object.toString();
-    return DatalogProgram();
+        object.toString();
+        return object;
+    }
+    catch (Token error){
+        cout << "Failure!" << endl;
+        cout << "  (" << tokens.at(tokenLocation)->tokenToSTring(tokens.at(tokenLocation)->getType()) << ",\""<<  tokens.at(tokenLocation)->getdescription()<<"\","<<tokens.at(tokenLocation)->getLine() << ")";
+    }
+
     }
 //schemeList	->	scheme schemeList | lambda Follow = FACTS
 void Parser::schemeList() {

@@ -29,7 +29,10 @@ public:
     void addToDomain(Parameter newParameter);
     void toString();
 
+    vector<Predicate> getSchemes();
 
+
+    vector<Predicate> getFacts();
 };
 
 

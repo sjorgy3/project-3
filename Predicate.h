@@ -20,6 +20,13 @@ public:
     void addName(string nametoadd);
     void addParameter(Parameter param);
     string toString();
+    string getName(){
+        return nameToSet;
+    }
+    vector<Parameter> getParams(){
+       return parameters;
+    }
+
     void clear();
 };
 

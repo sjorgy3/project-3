@@ -8,9 +8,22 @@
 #include "string"
 #include "DatalogProgram.h"
 #include "Relation.h"
+#include<map>
 
 class Database {
 private:
+    map<string,Relation> relations;
+
+public:
+    Database() = default;
+    ~Database() = default;
+    void addRelation(Relation newRelation);
+    Relation getRelation(string relationName);
+    Relation getRelationCopy(string relationName);
+
+
+
+
 };
 
 

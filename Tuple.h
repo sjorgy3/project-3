@@ -7,15 +7,34 @@
 
 #include <string>
 #include "vector"
+#include <set>
+
 using namespace std;
 
 class Tuple {
 private:
     vector<string>values;
+
 public:
     Tuple() = default;
-    bool operator< (const Tuple &rhs) const{
+    ~Tuple()= default;
+
+    void addValue(string value) {
+        values.push_back(value);
+    }
+
+    string getValue(unsigned int i){
+        return values.at(i);
+    }
+
+
+
+
+
+
+    bool operator < (const Tuple &rhs) const{
     return values < rhs.values;
+
 
 }
 

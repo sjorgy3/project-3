@@ -54,3 +54,12 @@ void DatalogProgram::toString() {
 void DatalogProgram::addToDomain(Parameter newParameter) {
     domain.insert(newParameter.toString());
 }
+
+vector<Predicate> DatalogProgram::getSchemes() {
+    return schemes;
+}
+vector<Predicate> DatalogProgram::getFacts() {
+    return facts;
+}
+
+

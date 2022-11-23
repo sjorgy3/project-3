@@ -3,6 +3,7 @@
 #include <fstream>
 #include <sstream>
 #include "Parser.h"
+#include "Interpreter.h"
 #include <vector>
 
 using namespace std;
@@ -24,11 +25,15 @@ int main(int argc, char** argv) {
 
 
     Lexer* lexer = new Lexer();
-
-
     vector<Token*>tokenVector = lexer->Run(text);
     Parser* parser = new Parser(tokenVector);
-    parser->parse();
+    Interpreter* interpreter = new Interpreter(parser->datalogprogram());
+    interpreter->database1();
+
+
+
+
+
 
 
 
