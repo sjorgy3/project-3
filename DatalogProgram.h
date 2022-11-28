@@ -33,6 +33,8 @@ public:
 
 
     vector<Predicate> getFacts();
+
+    vector<Predicate> getQueries();
 };
 
 

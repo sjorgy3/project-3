@@ -13,3 +13,11 @@ Parameter::Parameter(string s) {
     parameter=s;
 
 }
+
+bool Parameter::isConstant() {
+    if (parameter.at(0) == '\''){
+        return true;
+
+    }
+    return false;
+}

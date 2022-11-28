@@ -12,6 +12,7 @@ void Interpreter::intepretSchemes() {
         }
         Relation newRelation(scheme.getName(),newHeader);
         database.addRelation(newRelation);
+
     }
 
 
@@ -30,11 +31,38 @@ void Interpreter::interpretFacts() {
     }
 }
 
-void Interpreter::interpretRules() {
+
+
+void Interpreter::interpretQueries() {
+
+for(auto &&query:program.getQueries()){
+
+   Relation relationCopy =  database.getRelationCopy(query.getName());
+    map<string,int>variables;
+   for(unsigned int i = 0; i < query.getParams().size(); i++){
+       if (query.getParams().at(i).isConstant() == true){
+           relationCopy.select(i,query.getParams().at(i).toString());
+       }
+
+       else{
+           if(variables.count(query.getParams().at(i).toString())){
+
+               relationCopy.select2(variables[query.getParams().at(i).toString()], i);
+
+           }
+           else{
+               variables.insert({query.getParams().at(i).toString(), i});
+
+           }
+       }
+   }
 
 }
 
-void Interpreter::interpretQueries() {
+
+
+}
+void Interpreter::interpretRules() {
 
 }
 

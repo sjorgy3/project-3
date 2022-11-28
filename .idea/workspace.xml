@@ -15,10 +15,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f21df41-eac8-4f7f-981e-3bcba5e3c272" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatalogProgram.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DatalogProgram.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatalogProgram.h" beforeDir="false" afterPath="$PROJECT_DIR$/DatalogProgram.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interpreter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/project_2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/project_2.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/project_2.dir/Interpreter.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/project_2.dir/Interpreter.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/project_2.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/project_2.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parameter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Parameter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parameter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Parameter.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/project_2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/project_2.exe" afterDir="false" />
     </list>
@@ -67,6 +69,11 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.project_3">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="project_2 (1)" type="CMakeRunConfiguration" factoryName="Application" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project_2" TARGET_NAME="project_2" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="project_2" RUN_TARGET_NAME="project_2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -75,11 +82,6 @@
     <configuration name="project_3" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="input2.txt" REDIRECT_INPUT="false" ELEVATE="false" WORKING_DIR="file://$PROJECT_DIR$/" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="project_2" RUN_TARGET_NAME="project_2" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -178,7 +180,8 @@
       <workItem from="1667971698737" duration="1707000" />
       <workItem from="1668749505761" duration="6627000" />
       <workItem from="1669148215461" duration="10211000" />
-      <workItem from="1669240151662" duration="5160000" />
+      <workItem from="1669240151662" duration="5211000" />
+      <workItem from="1669605931800" duration="9221000" />
     </task>
     <task id="LOCAL-00001" summary="Commitation">
       <created>1663208615839</created>
@@ -502,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669245957921</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Commitation">
+      <created>1669246180494</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1669246180494</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -532,8 +542,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>29</line>
-          <option name="timeStamp" value="71" />
+          <line>30</line>
+          <option name="timeStamp" value="72" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

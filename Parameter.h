@@ -19,6 +19,8 @@ public:
     Parameter(string name);
 
     string toString();
+    bool isConstant();
+
 
 
 };
