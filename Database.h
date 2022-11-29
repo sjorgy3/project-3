@@ -18,7 +18,7 @@ public:
     Database() = default;
     ~Database() = default;
     void addRelation(Relation newRelation);
-    Relation getRelation(string relationName);
+    Relation* getRelation2(string relationName);
     Relation getRelationCopy(string relationName);
 
 

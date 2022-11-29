@@ -34,16 +34,18 @@ public:
 
 
     void setHeader(Header header);
+    Header getHeader();
 
     void addTuple(Tuple newTup);
+    set<Tuple> getRows();
 
     Relation select(int index, string value);
 
     Relation select2(int index1, int index2);
 
-    Relation project(list<int> indices);
+    Relation project(vector<int> indices);
 
-    Relation rename(list<string> attributes);
+    Relation rename(vector<string> attributes);
 
   /*  string toString() {
         stringstream ss;
@@ -55,6 +57,9 @@ public:
     }*/
 
 
+    void toString();
+
+    int numTuples();
 };
 
 

@@ -2,6 +2,7 @@
 // Created by 18017 on 11/5/2022.
 //
 
+#include <iostream>
 #include "Interpreter.h"
 
 void Interpreter::intepretSchemes() {
@@ -26,9 +27,9 @@ void Interpreter::interpretFacts() {
             newTuple.addValue(fact.getParams().at(i).toString());
 
         }
-
-        database.getRelation(fact.getName()).addTuple(newTuple);
+        database.getRelation2(fact.getName())->addTuple(newTuple);
     }
+
 }
 
 
@@ -36,26 +37,82 @@ void Interpreter::interpretFacts() {
 void Interpreter::interpretQueries() {
 
 for(auto &&query:program.getQueries()){
+    cout << query.toString() << "?" << " ";
 
-   Relation relationCopy =  database.getRelationCopy(query.getName());
+    Relation relationCopy =  database.getRelationCopy(query.getName());
+
     map<string,int>variables;
-   for(unsigned int i = 0; i < query.getParams().size(); i++){
+    vector<string>values;
+    vector<int>indices;
+
+   /* for(auto t: relationCopy.getRows()){
+        for(unsigned int i=0; i < t.getValues().size(); i++){
+            cout<< t.getValue(i) << endl;
+
+
+        }
+        cout << endl;
+
+    }*/
+    for(unsigned int i = 0; i < query.getParams().size(); i++){
        if (query.getParams().at(i).isConstant() == true){
-           relationCopy.select(i,query.getParams().at(i).toString());
+           relationCopy = relationCopy.select(i,query.getParams().at(i).toString());
+
+
        }
 
        else{
-           if(variables.count(query.getParams().at(i).toString())){
-
-               relationCopy.select2(variables[query.getParams().at(i).toString()], i);
+           if(variables.find(query.getParams().at(i).toString()) != variables.end()){
+              relationCopy= relationCopy.select2(variables[query.getParams().at(i).toString()], i);
 
            }
            else{
                variables.insert({query.getParams().at(i).toString(), i});
+               values.push_back(query.getParams().at(i).toString());
+               indices.push_back(i);
 
            }
        }
+
    }
+
+    relationCopy = relationCopy.project(indices);
+
+    relationCopy = relationCopy.rename(values);
+
+   /* for(auto t: relationCopy.getRows()){
+        for(unsigned int i=0; i < t.getValues().size(); i++){
+            cout<< t.getValue(i) << endl;
+
+
+        }
+        cout << endl;
+
+    }*/
+
+    if(relationCopy.numTuples() > 0){
+        cout << "yes" << "(" << relationCopy.numTuples() << ")" << endl;
+        for(auto t: relationCopy.getRows()){
+            if(!relationCopy.getHeader().getAttributes().empty()){
+                for (unsigned int i = 0; i < t.getValues().size()-1; ++i) {
+                    cout << "  " << relationCopy.getHeader().getAttributes().at(i) << "=";
+                    cout << t.getValue(i) << ", ";
+
+
+                }
+
+                cout << "  " << relationCopy.getHeader().getAttributes().at(t.getValues().size()-1) << "=";
+                cout << t.getValue(t.getValues().size()-1) << endl;
+            }
+
+        }
+    }
+    else{
+        cout << "No" << endl;
+
+    }
+
+
 
 }
 
@@ -69,6 +126,7 @@ void Interpreter::interpretRules() {
 Database Interpreter::database1() {
     intepretSchemes();
     interpretFacts();
+    interpretQueries();
 
 
     return this->database;

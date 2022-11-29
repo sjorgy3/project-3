@@ -26,7 +26,7 @@ public:
     string getValue(unsigned int i){
         return values.at(i);
     }
-
+    vector<string>getValues();
 
 
 

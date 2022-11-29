@@ -5,3 +5,7 @@
 #include "Header.h"
 
 
+vector<string> Header::getAttributes() {
+
+    return this->attributes;
+}

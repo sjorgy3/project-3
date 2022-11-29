@@ -29,6 +29,8 @@ public:
         attributes.push_back(value);
 
     }
+    vector<string>getAttributes();
+
 
 
 

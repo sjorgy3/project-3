@@ -3,3 +3,9 @@
 //
 
 #include "Tuple.h"
+
+vector<string> Tuple::getValues() {
+
+
+    return this->values;
+}
