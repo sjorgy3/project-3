@@ -29,18 +29,7 @@ void Parser::match(TokenType tokenType){
 
 }
 
-DatalogProgram Parser::parse() {
-    try {
-        datalogprogram();
-    }
-    catch (Token error){
-       /* cout << "Failure!" << endl;
-        cout << "  (" << tokens.at(tokenLocation)->tokenToSTring(tokens.at(tokenLocation)->getType()) << ",\""<<  tokens.at(tokenLocation)->getdescription()<<"\","<<tokens.at(tokenLocation)->getLine() << ")";
-   */ }
 
-
-
-}
 DatalogProgram Parser::datalogprogram(){
 
     //datalogProgram	->	SCHEMES COLON scheme schemeList FACTS COLON factList RULES COLON ruleList QUERIES COLON query queryList EOF
@@ -67,7 +56,9 @@ DatalogProgram Parser::datalogprogram(){
     catch (Token error){
        /* cout << "Failure!" << endl;
         cout << "  (" << tokens.at(tokenLocation)->tokenToSTring(tokens.at(tokenLocation)->getType()) << ",\""<<  tokens.at(tokenLocation)->getdescription()<<"\","<<tokens.at(tokenLocation)->getLine() << ")";
-    */}
+
+    */return object;
+    }
 
     }
 //schemeList	->	scheme schemeList | lambda Follow = FACTS
