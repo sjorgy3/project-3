@@ -15,16 +15,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f21df41-eac8-4f7f-981e-3bcba5e3c272" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/makefile-old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project3examples.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DatalogProgram.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DatalogProgram.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Interpreter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Parser.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/project_2.dir/Database.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/project_2.dir/Database.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/project_2.dir/Header.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/project_2.dir/Header.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/project_2.dir/Relation.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/project_2.dir/Relation.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/project_2.dir/Tuple.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/project_2.dir/Tuple.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/project_2.dir/DatalogProgram.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/project_2.dir/DatalogProgram.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/project_2.dir/Interpreter.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/project_2.dir/Interpreter.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/project_2.dir/Parser.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/project_2.dir/Parser.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/project_2.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/project_2.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug-mingw/project_2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/project_2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/makefile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +69,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\18017\CS236\project-3" />
       <recent name="C:\Users\18017\CS236\project-1" />
     </key>
   </component>
@@ -79,6 +82,11 @@
     <configuration name="project_3" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="input2.txt" REDIRECT_INPUT="false" ELEVATE="false" WORKING_DIR="file://$PROJECT_DIR$/" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="project_2" RUN_TARGET_NAME="project_2" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -179,14 +187,7 @@
       <workItem from="1669148215461" duration="10211000" />
       <workItem from="1669240151662" duration="5211000" />
       <workItem from="1669605931800" duration="31793000" />
-      <workItem from="1669871627724" duration="434000" />
-    </task>
-    <task id="LOCAL-00001" summary="Commitation">
-      <created>1663208615839</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1663208615839</updated>
+      <workItem from="1669871627724" duration="3179000" />
     </task>
     <task id="LOCAL-00002" summary="Commitation">
       <created>1663607209989</created>
@@ -524,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669681751211</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Commitation">
+      <created>1669872285092</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1669872285092</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -73,18 +73,30 @@ for(auto &&query:program.getQueries()){
     relationCopy = relationCopy.rename(values);
 
     if(relationCopy.numTuples() > 0){
-        cout << "yes" << "(" << relationCopy.numTuples() << ")" << endl;
+        cout << "Yes" << "(" << relationCopy.numTuples() << ")" << endl;
         for(auto t: relationCopy.getRows()){
             if(!relationCopy.getHeader().getAttributes().empty()){
+
                 for (unsigned int i = 0; i < t.getValues().size()-1; ++i) {
-                    cout << "  " << relationCopy.getHeader().getAttributes().at(i) << "=";
-                    cout << t.getValue(i) << ", ";
+                    if ( i < 1) {
+                        cout << "  " << relationCopy.getHeader().getAttributes().at(i) << "=";
+                        cout << t.getValue(i) << ",";
+                    }
+                    else{
+                        cout << " " << relationCopy.getHeader().getAttributes().at(i) << "=";
+                        cout << t.getValue(i) << ",";
+                    }
 
 
                 }
-
-                cout << "  " << relationCopy.getHeader().getAttributes().at(t.getValues().size()-1) << "=";
-                cout << t.getValue(t.getValues().size()-1) << endl;
+                if(t.getValues().size() == 1){
+                    cout << "  " << relationCopy.getHeader().getAttributes().at(t.getValues().size()-1) << "=";
+                    cout << t.getValue(t.getValues().size()-1) << endl;
+                }
+                else {
+                    cout << " " << relationCopy.getHeader().getAttributes().at(t.getValues().size() - 1) << "=";
+                    cout << t.getValue(t.getValues().size() - 1) << endl;
+                }
             }
 
         }
