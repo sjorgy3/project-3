@@ -45,15 +45,7 @@ for(auto &&query:program.getQueries()){
     vector<string>values;
     vector<int>indices;
 
-   /* for(auto t: relationCopy.getRows()){
-        for(unsigned int i=0; i < t.getValues().size(); i++){
-            cout<< t.getValue(i) << endl;
 
-
-        }
-        cout << endl;
-
-    }*/
     for(unsigned int i = 0; i < query.getParams().size(); i++){
        if (query.getParams().at(i).isConstant() == true){
            relationCopy = relationCopy.select(i,query.getParams().at(i).toString());
@@ -79,16 +71,6 @@ for(auto &&query:program.getQueries()){
     relationCopy = relationCopy.project(indices);
 
     relationCopy = relationCopy.rename(values);
-
-   /* for(auto t: relationCopy.getRows()){
-        for(unsigned int i=0; i < t.getValues().size(); i++){
-            cout<< t.getValue(i) << endl;
-
-
-        }
-        cout << endl;
-
-    }*/
 
     if(relationCopy.numTuples() > 0){
         cout << "yes" << "(" << relationCopy.numTuples() << ")" << endl;

@@ -24,26 +24,28 @@ void DatalogProgram::addToQueries(Predicate newQuery) {
 }
 
 void DatalogProgram::toString() {
-    cout << "Success!" << endl;
-    cout << "Schemes(" << schemes.size() << "):" << endl;
+    /*cout << "Success!" << endl;
+    cout << "Schemes(" << schemes.size() << "):" << endl;*/
     for (unsigned int i = 0; i < schemes.size(); i++){
-        cout << "  " << schemes.at(i).toString() << endl;
+       /* cout << "  " << schemes.at(i).toString() << endl;*/
     }
-    cout << "Facts(" << facts.size() << "):" << endl;
+    /*cout << "Facts(" << facts.size() << "):" << endl;*/
     for (unsigned int i = 0; i < facts.size(); i++) {
-        cout << "  " << facts.at(i).toString() << "." << endl;
+        /*cout << "  " << facts.at(i).toString() << "." << endl;*/
     }
-    cout << "Rules(" << rules.size() << "):" << endl;
+    /*cout << "Rules(" << rules.size() << "):" << endl;*/
     for (unsigned int i = 0; i < rules.size(); i++){
-        cout << "  " << rules.at(i).toString() << "." << endl;
+        //cout << "  " << rules.at(i).toString() << "." << endl;
     }
-    cout << "Queries(" << queries.size() << "):" << endl;
+    /*cout << "Queries(" << queries.size() << "):" << endl;*/
     for (unsigned int i = 0; i < queries.size(); i++){
-        cout << "  " << queries.at(i).toString() << "?"<< endl;
+        //cout << "  " << queries.at(i).toString() << "?"<< endl;
     }
-    cout << "Domain(" << domain.size() << "):" << endl;
-    for (auto it=domain.begin(); it != domain.end(); ++it)
-        cout << "  " << *it << endl;
+    /*cout << "Domain(" << domain.size() << "):" << endl;*/
+    for (auto it=domain.begin(); it != domain.end(); ++it){
+
+    }
+       /* cout << "  " << *it << endl;*/
 
 
 

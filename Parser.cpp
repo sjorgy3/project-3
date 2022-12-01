@@ -34,9 +34,9 @@ DatalogProgram Parser::parse() {
         datalogprogram();
     }
     catch (Token error){
-        cout << "Failure!" << endl;
+       /* cout << "Failure!" << endl;
         cout << "  (" << tokens.at(tokenLocation)->tokenToSTring(tokens.at(tokenLocation)->getType()) << ",\""<<  tokens.at(tokenLocation)->getdescription()<<"\","<<tokens.at(tokenLocation)->getLine() << ")";
-    }
+   */ }
 
 
 
@@ -65,9 +65,9 @@ DatalogProgram Parser::datalogprogram(){
         return object;
     }
     catch (Token error){
-        cout << "Failure!" << endl;
+       /* cout << "Failure!" << endl;
         cout << "  (" << tokens.at(tokenLocation)->tokenToSTring(tokens.at(tokenLocation)->getType()) << ",\""<<  tokens.at(tokenLocation)->getdescription()<<"\","<<tokens.at(tokenLocation)->getLine() << ")";
-    }
+    */}
 
     }
 //schemeList	->	scheme schemeList | lambda Follow = FACTS
